@@ -2,10 +2,10 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, MessageHandler, CommandHandler, ContextTypes, filters
 from openai import OpenAI
 import os
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 
 # Cargar las variables de entorno desde el archivo .env
-load_dotenv()
+#load_dotenv()
 
 # Obtener las claves de las variables de entorno
 TELEGRAM_TOKEN = os.getenv('TELEGRAM_TOKEN')
